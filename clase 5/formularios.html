@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Formularios</h1>
+    <form> <!-- es la etiqueta de formularios -->
+        <div>
+            <label for="username">Ingresa tu nombre de usuario</label> <!-- es la forma de nombrar a los imput, para saber que dato se esta pidiendo  -->
+            <input type="text" name="username" id="username" placeholder="Dario_1998">
+        </div>
+        <div>
+            <label for="password">ingrese su contraseña</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="hola@mail.com.es">
+        </div>
+        <div>
+            <label for="pais">Selecciona un pais</label>
+            <select name="pais" id="pais">>
+                <option value="NO" selected>No seleccionado</option>
+                <option value="AR">Argentina</option>
+                <option value="FRN">Francia</option>
+            </select>
+        </div>
+        <div>
+            <label for="">Seleccione un pais</label>
+            <span>Argentina</span><input type="radio" name="pais_1" id="AR">
+            <span>Francia</span><input type="radio" name="pais_1" id="FRN">
+        </div>
+        <div>
+            <label for="mensaje">ingrese su mensaje</label>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
+        </div>
+
+        <div>
+            <input type="submit" value="Confirmar"> <!-- con el atributo "value" puedo cambiar la palabra dentro de boton -->
+            <button type="submit">Eviar</button> <!-- existen varios tipos de botones, para poder enviar un formulario se deberia usar un boton del tipo "submit" -->
+            <!-- estas son dos formas de hacer lo mismo. En este caso es un boton de confirmar o enviar el formulario -->
+        </div>
+    </form>
+
+
+</body>
+</html>
