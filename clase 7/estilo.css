@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppis", sans-serif;
+} /* esto es para aplicarle a todo la pagina la fuenta, mediante el selectro universal que es el asterisco  */
+
+h1{
+    color: rgb(99, 189, 216); /* el ultimo valos es la opacidad */
+    font-size: 30px; /* es para indicar el tamaño del texto, el font-size */
+    letter-spacing: 0.5px; /* es una propiedad que te permite elegir el espacio entre las letras, esta propiedad no es tan utilizada */
+    word-spacing: 0.5px; /* es el espacio entre las palabras */
+    text-decoration: underline overline rgba(240, 6, 6, 0.649);
+    text-shadow: 20px 3px 4px black; /* debe tener un orden para poner los valores (todos tienen valor de tamaño, ej: px... 1/ejex 2/eje y 3/valor_difumindado 4/color  */
+    background-color: black;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.parrafo{
+    font-weight: 300;
+    font-size: 12px;
+    font-style: italic;
+    
+}

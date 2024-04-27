@@ -1,0 +1,49 @@
+/* NORMALIZACION /  NORMALIZE */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.caja{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 10px;
+    border: 2px solid green;
+    color: blue;
+    box-sizing: border-box;
+    margin: 50px;
+    margin-top: 50px;
+    /*  inset / x / y / blur / base / color */
+    box-shadow: inset 0px 0px 10px 10px rgb(85, 14, 208), 
+    0px 0px 10px 0px;
+}
+
+ul{
+    padding-left: 20px;
+}
+
+li{
+    list-style-type: none;
+}
+
+h1{
+    color: white;
+    font-family: sans-serif;
+    -webkit-text-stroke: 1px black;
+}
+
+input{
+    height: 10px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border: 1px red;
+    box-shadow: 0px 2 px 3px 0px rgb(0, 0, 0);
+}
